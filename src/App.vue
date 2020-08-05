@@ -1,16 +1,15 @@
 <template>
-  <div>hi</div>
-  <Fie/>
+  <div>导航栏|
+  <router-link to="/">Fie</router-link>|
+  <router-link to="/xxx">Fie2</router-link>
+  </div>
+  <hr/>
+  <router-view/>
 </template>
 
 <script>
 
-import Fie from './components/Fie.vue'
-
 export default {
   name: 'App',
-  components: {
-    Fie
-  }
 }
 </script>
